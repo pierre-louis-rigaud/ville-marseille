@@ -13,7 +13,7 @@
     list-style: none;
     padding-top: 0%;
     margin: 0%;
-    background-color: rgb(0, 255, 247);
+    background-color:rgb(245, 245, 220, .7);
 }
 
 .menu img {
@@ -43,11 +43,11 @@
 }
 
 .menu li a:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 245, 220, .7);
 }
 
 .menu li a:active {
-    background-color: rgb(255, 255, 255)
+    background-color:rgb(245, 245, 220, .7)
 }
 
 .menu .sousmenu {
@@ -67,7 +67,7 @@
     display: block;
     color: #000000;
     text-decoration: none;
-    background-color: rgb(0, 255, 247);
+    background-color: rgb(245, 245, 220, .7);
 
 }
 
@@ -92,7 +92,7 @@
     font-size: 6vh;
     color: black;
     letter-spacing: 2vh;
-    background-color: rgb(0, 255, 247);
+    background-color: rgb(245, 245, 220, .7);
     border-radius: 15px;
     padding: 1%;
 }
@@ -104,12 +104,31 @@
 
 .boxHistoire {
     text-align: center;
-    flex: 1;
+    flex: 2;
+}
+.boxHistoire h1 {
+    font-size: 250%;
+    padding-bottom: 2%;
+}
+.boxHistoire p {
+    font-size: 100%;
+    padding: 0% 15%;
+    word-spacing: 120%;
+    line-height: 150%;
 }
 
 .boxActu {
-    text-align: center;
-    background-color: grey;
     flex: 1;
- 
+    text-align: center;
+    background-color:rgb(245, 245, 220, .7);
+    border-radius: 10px;
+    margin-right: 5%;
+}
+.boxActu h1 {
+    font-size: 250%;
+    padding: 2% 0%;
+    
+}
+.twitter-timeline {
+    margin: 2% 2%;
 }
