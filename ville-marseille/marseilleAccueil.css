@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.menu {
+    height: 5vh;
+    list-style: none;
+    padding-top: 0%;
+    margin: 0%;
+    background-color: rgb(0, 255, 247);
+}
+
+.menu img {
+    height: 5vh;
+    margin-left: 115vh;
+}
+
+.menu li {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    float: left;
+    width: 180px;
+}
+
+.menu li a:link,
+.menu li a:visited {
+    display: block;
+    color: #000000;
+    padding: 2% 2%;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+.menu li a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.menu li a:active {
+    background-color: rgb(255, 255, 255)
+}
+
+.menu .sousmenu {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.menu .sousmenu li {
+    float: none;
+}
+
+.menu .sousmenu li a:link,
+.menu li a:visited {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    background-color: rgb(0, 255, 247);
+
+}
+
+.menu .sousmenu li a:hover {
+    background-color: gray;
+}
+
+.menu li:hover .sousmenu {
+    display: block;
+}
+
+#ImageCalanque {
+    width: 100%;
+    height: 50vh;
+    position: initial;
+}
+
+#TextMarseilleOnImage {
+    position: absolute;
+    top: 27%;
+    left: 27%;
+    font-size: 6vh;
+    color: black;
+    letter-spacing: 2vh;
+    background-color: rgb(0, 255, 247);
+    border-radius: 15px;
+    padding: 1%;
+}
+
+.containerAccueil {
+    display: flex;
+    padding-top: 2%;
+}
+
+.boxHistoire {
+    text-align: center;
+    flex: 1;
+}
+
+.boxActu {
+    text-align: center;
+    background-color: grey;
+    flex: 1;
+ 
+}
