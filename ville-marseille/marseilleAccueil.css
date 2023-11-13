@@ -13,7 +13,7 @@
     list-style: none;
     padding-top: 0%;
     margin: 0%;
-    background-color:rgb(245, 245, 220, .7);
+    background-color: rgb(245, 245, 220, .7);
 }
 
 .menu img {
@@ -22,7 +22,7 @@
 }
 
 .menu li {
-    margin: 0;
+    margin-left: 0;
     padding: 0;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .menu li a:active {
-    background-color:rgb(245, 245, 220, .7)
+    background-color: rgb(245, 245, 220, .7)
 }
 
 .menu .sousmenu {
@@ -93,6 +93,7 @@
     color: black;
     letter-spacing: 2vh;
     background-color: rgb(245, 245, 220, .7);
+    border: solid 1px;
     border-radius: 15px;
     padding: 1%;
 }
@@ -106,29 +107,72 @@
     text-align: center;
     flex: 2;
 }
+
 .boxHistoire h1 {
     font-size: 250%;
     padding-bottom: 2%;
 }
+
 .boxHistoire p {
-    font-size: 100%;
-    padding: 0% 15%;
-    word-spacing: 120%;
+    font-size: 120%;
+    padding: 1% 15%;
+    word-spacing: 0.5vh;
     line-height: 150%;
+
 }
 
 .boxActu {
     flex: 1;
     text-align: center;
-    background-color:rgb(245, 245, 220, .7);
+    background-color: rgb(245, 245, 220, .7);
+    border: solid 1px;
     border-radius: 10px;
     margin-right: 5%;
 }
+
 .boxActu h1 {
     font-size: 250%;
     padding: 2% 0%;
-    
+
 }
+
 .twitter-timeline {
     margin: 2% 2%;
+}
+
+.containerFooter {
+    display: flex;   
+    margin-top: 2%;
+    border: 2mm ridge beige;
+
+    
+}
+
+.BoxCreate {
+    flex: 2;
+   
+}
+
+.BoxReseaux {
+    flex: 1;
+    flex-direction: column-reverse;
+    justify-content: center;
+
+}
+
+.BoxCreate h1 {
+    font-size: 150%;
+    padding-top: 3%;
+    padding-left: 3%;
+
+}
+
+.BoxReseaux h1 {
+    font-size: 130%;
+    text-align: center;
+}
+
+.BoxReseaux img {
+    padding-top: 2%;
+    width: 5%;
 }
