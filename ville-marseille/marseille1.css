@@ -1,0 +1,41 @@
+.containerAccueil {
+    display: flex;
+    padding-top: 2%;
+}
+
+.boxHistoire {
+    text-align: center;
+    flex: 2;
+}
+
+.boxHistoire h1 {
+    font-size: 250%;
+    padding-bottom: 2%;
+}
+
+.boxHistoire p {
+    font-size: 100%;
+    padding: 1% 15%;
+    word-spacing: 0.5vh;
+    line-height: 150%;
+
+}
+
+.boxActu {
+    flex: 1;
+    text-align: center;
+    background-color: rgb(255, 255, 255, .8);
+    border: solid 1px;
+    border-radius: 10px;
+    margin-right: 5%;
+}
+
+.boxActu h1 {
+    font-size: 250%;
+    padding: 2% 0%;
+
+}
+
+.twitter-timeline {
+    margin: 2% 2%;
+}
