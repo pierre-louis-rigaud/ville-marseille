@@ -23,7 +23,7 @@ ul li {
 .texte{
     padding: 1% 15% 1% 15%;
     font-size: 110%;
-     
+    word-spacing: 4px;
 }
 .paragraphe{
     margin-top: 3%;
@@ -42,7 +42,7 @@ ul li {
     padding-bottom: 2%;
     padding-left: 1vh;
     padding-right: 1vh;
-    width: 40%;
+    /* width: auto; */
     text-decoration: none;
     /* padding-top: 10%; */
     color: aliceblue;
@@ -50,6 +50,28 @@ ul li {
 .liens a :hover{
     background-color: rgb(0, 0, 0);
 }
+#RTLLDPM{
+    width: 50%;
+}
+#LMDP{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ESP{
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#TLD{
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
 #text-bleue{
     color: rgb(0, 182, 217);
 }
