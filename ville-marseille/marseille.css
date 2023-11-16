@@ -4,7 +4,7 @@
     border: 0;
     outline: 0;
     font-size: 100%;
-    /* vertical-align: baseline; */
+        /* vertical-align: baseline; */
     background: transparent;
 }
 
@@ -116,13 +116,13 @@ body {
 
 .BoxReseaux {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     flex: 1;
 }
 
 .BoxCreate h1 {
     font-size: 150%;
-    padding-top: 3%;
+    /* padding-top: 3%; */
     padding-left: 3%;
 }
 
@@ -133,7 +133,7 @@ body {
 
 .BoxReseaux img {
     padding-top: 2%;
-    width: 5%;
+    width: 20%;
 
 }
 
@@ -141,7 +141,10 @@ body {
     text-align: center;
     align-items: center;
 }
-
+.BoxReseauxImg {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
