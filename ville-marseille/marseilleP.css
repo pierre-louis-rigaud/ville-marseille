@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: beige;
+}
+.menu {
+    height: 5vh;
+    list-style: none;
+    padding-top: 0%;
+    margin: 0%;
+}
+.menu img {
+    height: 10vh;
+    margin-left: 90vh;
+}
+.menu li {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    float: left;
+    width: 180px;
+}
+
+.menu li a:link, .menu li a:visited {
+    display: block;
+    color: #000000;
+    padding: 2% 2%;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+.menu li a:hover {background-color: rgb(255, 255, 255);}
+.menu li a:active {background-color: rgb(255, 255, 255)}
+
+.menu .sousmenu {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.menu .sousmenu li {
+    float: none;
+}
+
+.menu .sousmenu li a:link, .menu li a:visited {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu .sousmenu li a:hover {
+    background-color: gray;
+}
+
+.menu li:hover .sousmenu {
+    display: block;
+}
+
+#ImageCalanque {
+width: 100%;
+height: 50vh;
+position:initial;
+}
+#TextMarseilleOnImage{
+position: absolute;
+top: 27%;
+left: 25%;
+font-size: 6vh;
+color: rgb(255, 255, 255);
+letter-spacing: 2vh;
+background-color: rgba(128, 128, 128, 0.539);
+border-radius: 2%;
+padding: 1%;
+}
+
+
+
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 150px 50px;
+    padding: 250px 50px;
+}
+.container .card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    bow-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    transition: 0.6s;
+    
+}
+.container .card:hover{
+    height: 450px;
+}
+.container .card .imgx{
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 200px;
+    background: #333;
+    border-radius: 12px;
+    transition: scale(1.3);
+    z-index: 2;
+}
+
+.container .card .imgx{
+    top: -90px;
+    scale: 0,70;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.15)
+}
+.container .card .content{
+    position: absolute;
+    top: 150px;
+    width: 120%;
+    padding: 0 30px;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+}
+.container .card:hover .content{
+    top: 130;
+    height: 250px;
+}
+
+
+footer{
+    position: relative;
+    border-bottom: 10em solid;
+    border-color: rgb(21, 177, 244);
+}
+.barre{
+    background-color: rgb(1, 69, 152);
+    height: 150px;
+}
+
+.Reseau{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.annonce{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 30px;
+    border-radius: 17px;
+    gap: 20px;
+}
+.groupe{
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+    color: white;
+}
