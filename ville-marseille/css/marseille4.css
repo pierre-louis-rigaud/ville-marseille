@@ -11,6 +11,9 @@ h1{
     font-size: 300%;
     
 }
+h2{
+    font-size: 200%;
+}
 
 ul {
     padding-left: 2rem;
@@ -103,7 +106,11 @@ ul li {
     margin-left: auto;
     margin-right: auto;
 }
-
+#CADA{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 #text-rouge{
@@ -114,4 +121,10 @@ ul li {
 }
 #gras{
     font-weight: bold;
+}
+
+@media screen and (max-width:600px) {
+    main {
+        width: 100%;
+    }
 }

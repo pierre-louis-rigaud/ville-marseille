@@ -1,0 +1,134 @@
+body{
+    background-image: url(images/plage\ sans\ tabac.jpg);
+    
+}   
+
+
+h1{
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 300%;
+    
+}
+h2{
+    font-size: 200%;
+}
+
+ul {
+    /* padding-left: 2rem; */
+    list-style-type: none;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-size: medium;
+} 
+ul li {
+    padding-left: 2rem;
+    background-image: url(images/cercle_pour_liste\(petit\).jpg);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
+
+.texte{
+    padding: 1% 15% 1% 15%;
+    font-size: 110%;
+    word-spacing: 4px;
+    line-height: 25px;
+}
+.paragraphe{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.liens{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1% 25% 1% 25%;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(0, 182, 217);
+    border-color: rgb(0, 182, 217);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    /* width: auto; */
+    text-decoration: none;
+    /* padding-top: 10%; */
+    color: aliceblue;
+}   
+.liens a :hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.liste-plage{
+    display: flex;
+    justify-content: center;
+    
+}
+#listes-plage1{
+    font-size: medium;
+}
+#listes-plage2{
+    display: right;
+    padding-left: 40%;
+    font-size: medium;
+}
+#ligne-dessous{
+    border-bottom: solid;
+    border-color: hsl(0, 0%, 76%);
+    border-width: 2px;
+    padding-bottom: 3%;
+}
+#liens-M4{
+    color: rgb(0, 182, 217);
+}
+
+#YT-video{
+    margin: 7% 5% 7% 5%;
+}
+
+#RTLLDPM{
+    width: 50%;
+}
+#LMDP{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ESP{
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#TLD{
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#CADA{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#text-rouge{
+    color: rgb(221, 27, 27);
+}
+#text-bleue{
+    color: rgb(0, 182, 217);
+}
+#gras{
+    font-weight: bold;
+}
+#italique{
+    font-style: italic;
+}
+
+@media screen and (max-width:600px) {
+    main {
+        width: 100%;
+    }
+}
