@@ -1,3 +1,9 @@
+body{
+    background-image: url(images/météo-plage.jpg);
+    
+}   
+
+
 h1{
     text-align: left;
     padding-left: 5%;
@@ -27,6 +33,7 @@ h2{
     padding: 1% 15% 1% 15%;
     font-size: 110%;
     word-spacing: 4px;
+    line-height: 25px;
 }
 .paragraphe{
     margin-top: 3%;
@@ -53,6 +60,34 @@ h2{
 .liens a :hover{
     background-color: rgb(0, 0, 0);
 }
+
+.liste-plage{
+    display: flex;
+    justify-content: center;
+    
+}
+#listes-plage1{
+    font-size: medium;
+}
+#listes-plage2{
+    display: right;
+    padding-left: 40%;
+    font-size: medium;
+}
+#ligne-dessous{
+    border-bottom: solid;
+    border-color: hsl(0, 0%, 76%);
+    border-width: 2px;
+    padding-bottom: 3%;
+}
+#liens-M4{
+    color: rgb(0, 182, 217);
+}
+
+#YT-video{
+    margin: 7% 5% 7% 5%;
+}
+
 #RTLLDPM{
     width: 50%;
 }
@@ -71,14 +106,16 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
-#DPST{
-    width: 250px;
+#CADA{
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
 }
 
 
-
+#text-rouge{
+    color: rgb(221, 27, 27);
+}
 #text-bleue{
     color: rgb(0, 182, 217);
 }
