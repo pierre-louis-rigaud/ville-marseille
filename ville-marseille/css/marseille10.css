@@ -1,0 +1,52 @@
+
+
+.BackRando {
+    background-color: rgb(255, 255, 255, .6);
+    margin: 4%;
+    border-radius: 5px;
+    padding: 1%;
+    scroll-behavior: auto;
+    border: solid black 1px;
+}
+
+.containerRandoInfo {
+    display: flex;
+}
+
+.box1 {
+    flex: 2;
+    padding-top: 1%;
+}
+
+.BackRando h1 {
+    font-size: 200%;
+}
+
+.box1 h2 {
+    font-size: 130%;
+}
+
+.box2 {
+    padding-top: 2%;
+
+}
+
+.box2 p {
+    color: red;
+}
+
+.box2 a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.box1 p {
+    margin-right: 20%;
+    line-height: 140%;
+    word-spacing: 0.4vh;
+}
+
+.BackRando p {
+    font-size: 120%;
+}
